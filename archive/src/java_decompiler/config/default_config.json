@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "threads": 0,
+  "max_retries": 1,
+  "retry_delay": 1.0,
+  "logging": {
+    "level": "INFO",
+    "file": null,
+    "console": true,
+    "file_format": "%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    "console_format": "%(levelname)s: %(message)s"
+  },
+  "engines": {
+    "cfr": {
+      "path": "tools/cfr.jar",
+      "options": {}
+    },
+    "fernflower": {
+      "path": "tools/fernflower.jar",
+      "dgs": true,
+      "hdc": false,
+      "hes": false,
+      "ind": 4,
+      "log": false,
+      "mpm": false,
+      "ren": "0",
+      "urc": true,
+      "vac": false,
+      "var": 0,
+      "nns": true,
+      "noe": false,
+      "tcs": false,
+      "pll": true,
+      "lit": false
+    },
+    "jadx": {
+      "path": "tools/jadx",
+      "cli_path": null,
+      "deobfuscation": false,
+      "deobfuscation_min": 3,
+      "deobfuscation_max": 64,
+      "string_encryption": false,
+      "show_inconsistent_code": false,
+      "escape_unicode": false,
+      "no_resources": false,
+      "no_debug_info": false,
+      "no_class_debug_info": false,
+      "no_rt": false,
+      "threads": 0,
+      "log_level": "WARN"
+    }
+  },
+  "output": {
+    "overwrite": false,
+    "recursive": true,
+    "format": "java"
+  }
+}
